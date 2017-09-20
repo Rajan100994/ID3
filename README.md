@@ -19,7 +19,7 @@ arg1 = The complete path of training data file
 arg2 = The complete path of validation data file
 arg3 = The complete path of testing data file
 arg4 = Pruning factor between 0 to 1
-arg5 = Purity needed at each leaf node. By default the value is 85% if left blank. Values than 60% will be converted to 85%.
+arg5 = Purity needed at each leaf node. By default the value is 85% if left blank. Values less than 60% will be converted to 85%.
 
 
 The code will thus produce the following outputs:
